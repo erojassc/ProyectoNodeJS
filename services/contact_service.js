@@ -114,3 +114,5 @@ app.get('/', function(req, res) {
     }
     res.send(respuesta);
    });
+
+   module.exports = service;
